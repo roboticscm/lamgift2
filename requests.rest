@@ -1,0 +1,20 @@
+GET http://localhost:4000/list
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImtoYWkubHYiLCJpYXQiOjE2MDQyOTgwNzcsImV4cCI6MTYwNDI5ODEwN30.B5ZwuZhMl5p-N70I2D_D9JRL18rUnKCFRx0Wxachs-lMUWw8s963g5uv_Dk_7Pgm6y8_k7ac8wUz9nvNanpPBj3ophlT5Dudoc3YmCWOBY97ZUCuwtVt_bOtauMXLPu0CLj4njffM7EjXHhdlAwQsHFB8I_DI4p1S7Wmv2kVQNFLoQo3HVD-1OkIV1MpVIXxFxG5h3GXIEozZh4qKGz5oCuQ1xQTXmN_0g0O9jVZR1BGGX3AUumkjUe-KlXAsZu_0VsmsnjBOJ9wlgKTYqOJOF4XgnR29U2mKZcuBUDJxk9NSSgBNmxSLLIfrsD8UAQS9XfQ5zHr7YT7LkaQWuvRiQ
+
+###
+POST http://localhost:4000/token
+Content-Type: application/json
+
+{
+    "refreshToken": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImtoYWkubHYiLCJpYXQiOjE2MDQyOTA1NTcsImV4cCI6MTYzNTgyNjU1N30.IX7pJp1ye-DGaV9cbMao-uHm1_ViwTTmlclkgg8kqCELnUuxsIA66woNdtQLEVFNBnMZ8D3zn6OJFDveWCw3D8HbFUG-trDu8IL4dzmO01oPzHFKXIJGSmZYMfH1I2pxIjp_eEOsoiiXXASdLC34lP4gv1E6ehgUKotHHTQP_e00o4Wyq4-Ck_geY0agrYLigiD0g3oPpD1noD8hS0zjl0EyV2YLv-FEfeF6JewBotyojEWl5BgZmF9EzZj9504e0ED6XWeP8bvpSSQA-N4nv8o1yTAn_ijJq5haZLfIZjl_XsApVzpGAuUFXXHvYyTS6mDOVkzPt52IX-WEEortSQ"
+}
+
+
+###
+POST http://localhost:4000/login
+Content-Type: application/json
+
+{
+    "username": "khai.lv"
+}
